@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Env secrets
+.env
+
+# Data / indexes / uploads
+backend/data/
+backend/uploads/
+*.faiss
+*.pkl
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# OS
+.DS_Store
