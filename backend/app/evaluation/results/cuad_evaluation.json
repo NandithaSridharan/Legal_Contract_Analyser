@@ -1,0 +1,2240 @@
+{
+    "contracts_evaluated": 6,
+    "overall_results": {
+        "overall": {
+            "precision": 0.7439024390243902,
+            "recall": 0.7439024390243902,
+            "f1": 0.7439024390243902
+        },
+        "per_category_f1": {
+            "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract": 0.0,
+            "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract": 0.0,
+            "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract": 0.3333333333333333,
+            "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective": 0.3333333333333333,
+            "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire": 0.16666666666666666,
+            "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.": 0.6666666666666666,
+            "Highlight the parts (if any) of this contract related to \"Notice Period To Terminate Renewal\" that should be reviewed by a lawyer. Details: What is the notice period required to terminate renewal": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract": 0.16666666666666666,
+            "Highlight the parts (if any) of this contract related to \"Most Favored Nation\" that should be reviewed by a lawyer. Details: Is there a clause that if a third party gets better terms on the licensing or sale of technology/goods/services described in the contract, the buyer of such technology/goods/services under the contract shall be entitled to those better terms": 1.0,
+            "Highlight the parts (if any) of this contract related to \"Non-Compete\" that should be reviewed by a lawyer. Details: Is there a restriction on the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Exclusivity\" that should be reviewed by a lawyer. Details: Is there an exclusive dealing  commitment with the counterparty? This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on  collaborating or working with other parties), whether during the contract or  after the contract ends (or both).": 0.6666666666666666,
+            "Highlight the parts (if any) of this contract related to \"No-Solicit Of Customers\" that should be reviewed by a lawyer. Details: Is a party restricted from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Competitive Restriction Exception\" that should be reviewed by a lawyer. Details: This category includes the exceptions or carveouts to Non-Compete, Exclusivity and No-Solicit of Customers above.": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"No-Solicit Of Employees\" that should be reviewed by a lawyer. Details: Is there a restriction on a party’s soliciting or hiring employees and/or contractors from the  counterparty, whether during the contract or after the contract ends (or both)": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Non-Disparagement\" that should be reviewed by a lawyer. Details: Is there a requirement on a party not to disparage the counterparty": 1.0,
+            "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Rofr/Rofo/Rofn\" that should be reviewed by a lawyer. Details: Is there a clause granting one party a right of first refusal, right of first offer or right of first negotiation to purchase, license, market, or distribute equity interest, technology, assets, products or services": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Change Of Control\" that should be reviewed by a lawyer. Details: Does one party have the right to terminate or is consent or notice required of the counterparty if such party undergoes a change of control, such as a merger, stock sale, transfer of all or substantially all of its assets or business, or assignment by operation of law": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party": 0.5,
+            "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services": 1.0,
+            "Highlight the parts (if any) of this contract related to \"Price Restrictions\" that should be reviewed by a lawyer. Details: Is there a restriction on the  ability of a party to raise or reduce prices of technology, goods, or  services provided": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Minimum Commitment\" that should be reviewed by a lawyer. Details: Is there a minimum order size or minimum amount or units per-time period that one party must buy from the counterparty under the contract": 0.6666666666666666,
+            "Highlight the parts (if any) of this contract related to \"Volume Restriction\" that should be reviewed by a lawyer. Details: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events": 1.0,
+            "Highlight the parts (if any) of this contract related to \"Joint Ip Ownership\" that should be reviewed by a lawyer. Details: Is there any clause providing for joint or shared ownership of intellectual property between the parties to the contract": 1.0,
+            "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty": 0.5,
+            "Highlight the parts (if any) of this contract related to \"Non-Transferable License\" that should be reviewed by a lawyer. Details: Does the contract limit the ability of a party to transfer the license being granted to a third party": 1.0,
+            "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensor\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant by affiliates of the licensor or that includes intellectual property of affiliates of the licensor": 1.0,
+            "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensee\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant to a licensee (incl. sublicensor) and the affiliates of such licensee/sublicensor": 1.0,
+            "Highlight the parts (if any) of this contract related to \"Unlimited/All-You-Can-Eat-License\" that should be reviewed by a lawyer. Details: Is there a clause granting one party an “enterprise,” “all you can eat” or unlimited usage license": 1.0,
+            "Highlight the parts (if any) of this contract related to \"Irrevocable Or Perpetual License\" that should be reviewed by a lawyer. Details: Does the contract contain a  license grant that is irrevocable or perpetual": 1.0,
+            "Highlight the parts (if any) of this contract related to \"Source Code Escrow\" that should be reviewed by a lawyer. Details: Is one party required to deposit its source code into escrow with a third party, which can be released to the counterparty upon the occurrence of certain events (bankruptcy,  insolvency, etc.)": 1.0,
+            "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Audit Rights\" that should be reviewed by a lawyer. Details: Does a party have the right to  audit the books, records, or physical locations of the counterparty to ensure compliance with the contract": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Uncapped Liability\" that should be reviewed by a lawyer. Details: Is a party’s liability uncapped upon the breach of its obligation in the contract? This also includes uncap liability for a particular type of breach such as IP infringement or breach of confidentiality obligation.": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.": 0.6666666666666666,
+            "Highlight the parts (if any) of this contract related to \"Liquidated Damages\" that should be reviewed by a lawyer. Details: Does the contract contain a clause that would award either party liquidated damages for breach or a fee upon the termination of a contract (termination fee)": 1.0,
+            "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract": 0.5,
+            "Highlight the parts (if any) of this contract related to \"Insurance\" that should be reviewed by a lawyer. Details: Is there a requirement for insurance that must be maintained by one party for the benefit of the counterparty": 0.6666666666666666,
+            "Highlight the parts (if any) of this contract related to \"Covenant Not To Sue\" that should be reviewed by a lawyer. Details: Is a party restricted from contesting the validity of the counterparty’s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract": 0.8333333333333334,
+            "Highlight the parts (if any) of this contract related to \"Third Party Beneficiary\" that should be reviewed by a lawyer. Details: Is there a non-contracting party who is a beneficiary to some or all of the clauses in the contract and therefore can enforce its rights against a contracting party": 1.0
+        }
+    },
+    "contract_results": [
+        {
+            "contract": "LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT",
+            "categories": {
+                "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract": {
+                    "ground_truth": [
+                        "DISTRIBUTOR AGREEMENT"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract": {
+                    "ground_truth": [
+                        "Distributor",
+                        "Electric City Corp.",
+                        "Electric City of Illinois L.L.C.",
+                        "Company",
+                        "Electric City of Illinois LLC"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract": {
+                    "ground_truth": [
+                        "7th day of September, 1999."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective": {
+                    "ground_truth": [
+                        "The term of this  Agreement  shall be ten (10)                            years (the \"Term\")  which shall  commence on the date                            upon which the Company  delivers to  Distributor  the                            last Sample, as defined  hereinafter.",
+                        "Unless  earlier   terminated   otherwise  provided                   therein,  this  Agreement,  subject to the  commencement  date                   established  in Section 1.3,  shall be effective  immediately."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire": {
+                    "ground_truth": [
+                        "The term of this  Agreement  shall be ten (10)                            years (the \"Term\")  which shall  commence on the date                            upon which the Company  delivers to  Distributor  the                            last Sample, as defined  hereinafter."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.": {
+                    "ground_truth": [
+                        "If Distributor                            complies with all of the terms of this Agreement, the                            Agreement  shall be  renewable on an annual basis for                            one (1) year terms for up to  another  ten (10) years                            on the same terms and conditions as set forth herein."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Notice Period To Terminate Renewal\" that should be reviewed by a lawyer. Details: What is the notice period required to terminate renewal": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract": {
+                    "ground_truth": [
+                        "This Agreement is to be construed according to the laws          of the State of Illinois."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Most Favored Nation\" that should be reviewed by a lawyer. Details: Is there a clause that if a third party gets better terms on the licensing or sale of technology/goods/services described in the contract, the buyer of such technology/goods/services under the contract shall be entitled to those better terms": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Compete\" that should be reviewed by a lawyer. Details: Is there a restriction on the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Exclusivity\" that should be reviewed by a lawyer. Details: Is there an exclusive dealing  commitment with the counterparty? This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on  collaborating or working with other parties), whether during the contract or  after the contract ends (or both).": {
+                    "ground_truth": [
+                        "The  Distributor  shall  not order or                   purchase Products from any source other than the Company.",
+                        "Company  hereby   appoints                            Distributor as Company's exclusive distributor within                            the Market and grants to  Distributor  the  exclusive                            right  to sell and  distribute  Products  within  the                            Market,   and   Distributor   hereby   accepts   such                            appointment  and such grant,  in accordance  with the                            terms and conditions of this  Agreement.",
+                        "The Company appoints the Distributor as an  exclusive  distributor  of Products in the Market,  subject to the terms and conditions of this Agreement."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"No-Solicit Of Customers\" that should be reviewed by a lawyer. Details: Is a party restricted from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)": {
+                    "ground_truth": [
+                        "Distributor further agrees that it will not interfere                            with or  otherwise  disrupt  the  business  relations                            between the Company or nay of its  affiliates and any                            of their current or prospective customers,  suppliers                            or distributors, during the",
+                        "Term of the  Agreement  and for a period of  eighteen\n\n\n\n\n\n                           (18) months thereafter,  nor will Distributor solicit                            any  customer  or  potential  customer  of Company to                            purchase a competitive product during that period."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Competitive Restriction Exception\" that should be reviewed by a lawyer. Details: This category includes the exceptions or carveouts to Non-Compete, Exclusivity and No-Solicit of Customers above.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"No-Solicit Of Employees\" that should be reviewed by a lawyer. Details: Is there a restriction on a party’s soliciting or hiring employees and/or contractors from the  counterparty, whether during the contract or after the contract ends (or both)": {
+                    "ground_truth": [
+                        "During the Term of this Agreement and for a period of                            twelve (12) months  thereafter,  the  Distributor (on                            behalf of itself,  each of its affiliates and each of                            their respective representatives) agrees that it will                            not  directly  or  indirectly  solicit  or  hire  any                            executive,  managerial  or technical  employee of the                            Company or any of its affiliates."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Disparagement\" that should be reviewed by a lawyer. Details: Is there a requirement on a party not to disparage the counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Rofr/Rofo/Rofn\" that should be reviewed by a lawyer. Details: Is there a clause granting one party a right of first refusal, right of first offer or right of first negotiation to purchase, license, market, or distribute equity interest, technology, assets, products or services": {
+                    "ground_truth": [
+                        "Distributor  shall exercise its option to                   become  exclusive  Distributor of other Products or devices by                   serving  written  notification  on Company of its  election to                   become  exclusive  distributor  within  thirty  (30) days upon                   which  Company  informed  Distributor  in writing of Company's                   intention  to  introduce   other   Products  or  devices.",
+                        "If                   Distributor  does not exercise its option as herein  provided,                   Company may  distribute  the other  Products or devices within                   the Market itself or through other distributors.",
+                        "Should Company  introduce  other products or                   devices as contemplated by recital paragraph \"A\",  Distributor                   shall  have  the  option  of  becoming   Company's   exclusive                   distributor  of such  other  Products  or  devices  within the                   Market."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Change Of Control\" that should be reviewed by a lawyer. Details: Does one party have the right to terminate or is consent or notice required of the counterparty if such party undergoes a change of control, such as a merger, stock sale, transfer of all or substantially all of its assets or business, or assignment by operation of law": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party": {
+                    "ground_truth": [
+                        "No  assignment  of this  Agreement  or any  right                   accruing  hereunder  shall be made by the Distributor in whole                   or in part,  without the prior written consent of the Company,                   which  consent  shall  not  be  unreasonably  withheld.",
+                        "In  the  event  either  party  (a)  becomes                   adjudicated insolvent,  (b) discontinues its business, (c) has                   voluntary of  involuntary  bankruptcy  proceedings  instituted                   against  it, or (d) makes an  assignment  for the  benefit  of                   creditors, the other party shall be entitled to terminate this                   Agreement effective immediately upon written notice."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Price Restrictions\" that should be reviewed by a lawyer. Details: Is there a restriction on the  ability of a party to raise or reduce prices of technology, goods, or  services provided": {
+                    "ground_truth": [
+                        "The Company  also  reserves  the right to                            increase  or  decrease  the price  per unit  based on                            Company   wide   changes   in  unit   prices  to  all                            distributors of the Company,  provided however,  that                            any price changes, other than those based on the CPI,                            shall be uniformly applied to all distributors of the                            Products   and  shall   reasonably   applied  to  all                            distributors  of the  Products  and shall  reasonably                            reflect Company's costs of manufacturing the Products                            and/or  market  demand  for  the  Products,  provided                            further  than any increase in price based upon market                            demand   shall   not  be  so  great  as  to   deprive                            Distributor  of  its  normal  and  customary   profit                            margin.",
+                        "The prices set forth in                            Section   2.4(a)  shall  be  subject  to   adjustment                            annually  on the  first  day  of  each  Product  Year                            beginning in the calendar  year 2000 and on the first                            day of each succeeding Product Year for the remainder                            of the Term and all  renewals  of this  Agreement  in                            proportion   to  the  increase  or  decrease  in  the                            Consumer  Price Index (CPI) as compared to the CPI as                            it  existed  on the  first  day of the  Term  of this                            Agreement."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Minimum Commitment\" that should be reviewed by a lawyer. Details: Is there a minimum order size or minimum amount or units per-time period that one party must buy from the counterparty under the contract": {
+                    "ground_truth": [
+                        "A minimum of a $250,000.00  purchase  order  must be  received  by Company by the first of each month for a total (12) month  period.",
+                        "Company's representatives will                            make themselves available three days per month in the                            first   Product   Year  to  consult  with  and  train                            Distributor.",
+                        "(A)    375 units in the first Product Year (1999)\n\n                  (B)    750 units in the next succeeding Product Year; (2000)\n\n                  (C)    937 units in the next succeeding Product Year; (2001)\n\n                  (D)    1,171 units in the next succeeding Product Year; (2002)\n\n                  (E)    1,463 units in the next succeeding Product Year; (2003)\n\n                  (F)    1,828 units in the next succeeding Product Year; (2004)\n\n                  (G)    2,285 units in the next succeeding Product Year; (2005)\n\n                  (H)    2,856  unit each in the lat  three  years of                          the initial Term of this  Agreement  and any                          renewals thereof.",
+                        "In                            order  to  maintain  the  exclusive  rights  to sell,                            lease, distribute and service Products in the Market,                            the Distributor must use all commercially  reasonably                            efforts to purchase for sale to  subdistributors  the                            following minimum quantities of the Products from the                            Company:\n\n         On the  commencement of the Term  Distributor will issue to the Company an  irrevocable  letter of credit (\"LC\") in the amount of Five Hundred  Thousand Dollars  ($500,000),  the form of which is  attached  hereto  as  Exhibit  A and incorporated  herein by reference.",
+                        "If the  Distributor  shall fail to purchase the minimum number of units in any year, the  Distributor's  exclusive rights to sell and distribute the Product in the Market,  may at Company's sole option, be reevaluated."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Volume Restriction\" that should be reviewed by a lawyer. Details: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Joint Ip Ownership\" that should be reviewed by a lawyer. Details: Is there any clause providing for joint or shared ownership of intellectual property between the parties to the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty": {
+                    "ground_truth": [
+                        "Company  hereby   appoints                            Distributor as Company's exclusive distributor within                            the Market and grants to  Distributor  the  exclusive                            right  to sell and  distribute  Products  within  the                            Market,   and   Distributor   hereby   accepts   such                            appointment  and such grant,  in accordance  with the                            terms and conditions of this  Agreement.",
+                        "The Company  hereby grants the  Distributor                            the right to do business  and use the name  \"Electric                            City of  Illinois\"  or a  similar  variation  thereof                            (collectively   the   \"Names\")  for  use  under  this                            Agreement."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Transferable License\" that should be reviewed by a lawyer. Details: Does the contract limit the ability of a party to transfer the license being granted to a third party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensor\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant by affiliates of the licensor or that includes intellectual property of affiliates of the licensor": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensee\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant to a licensee (incl. sublicensor) and the affiliates of such licensee/sublicensor": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Unlimited/All-You-Can-Eat-License\" that should be reviewed by a lawyer. Details: Is there a clause granting one party an “enterprise,” “all you can eat” or unlimited usage license": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Irrevocable Or Perpetual License\" that should be reviewed by a lawyer. Details: Does the contract contain a  license grant that is irrevocable or perpetual": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Source Code Escrow\" that should be reviewed by a lawyer. Details: Is one party required to deposit its source code into escrow with a third party, which can be released to the counterparty upon the occurrence of certain events (bankruptcy,  insolvency, etc.)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments": {
+                    "ground_truth": [
+                        "Upon the expiration or termination of                   this  Agreement,  pursuant to Section  4.1 or 4.2 hereof,  the                   Company may, at its option to be  exercised  within 30 days of                   the date of the termination of this Agreement, and in its sole                   discretion,  repurchase  any Products in the possession of the                   Distributor  at the net invoice price paid by the  Distributor                   to  the  Company  less  any  applicable  special   allowances,                   discounts, shipping or allowances for cooperative advertising.",
+                        "and which the Company has not repurchased.",
+                        "Following  expiration or                   termination of this Agreement, the Distributor may continue to                   sell any Products in the Market which are in its inventory",
+                        "If Company  terminates  the  Agreement  without  cause and for                   reasons other than  Distributor's  failure to meet its minimum                   expectations;   it  shall   repurchase  from  Distributor  any                   unopened  Product,  and shall bear all shipping,  handling and                   related  costs  notwithstanding  any other  remedies  to which                   Distributor  may be  entitled."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Audit Rights\" that should be reviewed by a lawyer. Details: Does a party have the right to  audit the books, records, or physical locations of the counterparty to ensure compliance with the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Uncapped Liability\" that should be reviewed by a lawyer. Details: Is a party’s liability uncapped upon the breach of its obligation in the contract? This also includes uncap liability for a particular type of breach such as IP infringement or breach of confidentiality obligation.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Liquidated Damages\" that should be reviewed by a lawyer. Details: Does the contract contain a clause that would award either party liquidated damages for breach or a fee upon the termination of a contract (termination fee)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract": {
+                    "ground_truth": [
+                        "In the event that Company is unable or unwilling to                   promptly  perform any warranty work without  reasonable  cause                   and following  full and fair  opportunity  to do so, or in the                   event of the necessity  for  emergency  repairs of a defective                   Product  for  which  there  is no  reasonable  possibility  of                   performance by Company,  Distributor may perform such warranty                   work or hire a third party to perform such  warranty  work and                   the reasonable cost thereof shall be paid by Company.",
+                        "If, within the twenty-four  (24) month warranty                   period set forth above,  Company  received from Distributor or                   any of  Distributor's  end-user's  a notice  which may be oral                   notice  confirmed in writing)  that any of the  Products  sold                   hereunder do not meet the Warranties  specified above, Company                   shall  thereupon  correct  each such defect by  providing  the                   necessary repairs,  and/or replacement parts, or if necessary,                   Products.",
+                        "The Company reserves the                   right to reject any Products  that are not factory  sealed and                   in new and unused  condition.",
+                        "In the event of any  damages or                            other  defect in a  Product  which is  discovered  by                            Distributor   within   365   days   of   satisfactory                            installation  of  a  Product  at  Distributor's  or a                            subdistributor's   customer,  the  Distributor  shall                            promptly   report  the  same  to  the   Company   and                            reasonably  demonstrate the defect to the Company.",
+                        "The  Company  represents  that,  to the  best  of its                            knowledge,  Products are in compliance with all laws,                            and  that  the  Products  will  not be  hazardous  or                            dangerous  when  used  for  their  intended  purpose.                            Products  do not  cause  harmful  emissions  or other                            environmental  hazards and Products do not violate or                            infringe any patents, copyrights, trademarks or other                            rights  of  nay  third  party(ies).",
+                        "Company  further  warrants that the                   Products sold hereunder  shall be free from defects in design,                   materials and  workmanship  for a period of  twenty-four  (24)                   months after delivery to Distributor's  end-user.",
+                        "The                            Company shall not have any obligation with respect to                            Products  after  365  days   following   delivery  to                            Distributor, except as provided herein.",
+                        "If Company does not give Annual                            Notice  pursuant to Section  3.1 hereof,  Distributor                            may, within 90 days of  modification,  improvement or                            alteration,  return the Products to the Company."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Insurance\" that should be reviewed by a lawyer. Details: Is there a requirement for insurance that must be maintained by one party for the benefit of the counterparty": {
+                    "ground_truth": [
+                        "Company will carry a reasonable                   amount of product  liability  insurance  through a  reasonably                   acceptable  products liability insurance company and will name                   the  Distributor  as an additional  insured under that policy.                   Company  will make  reasonable  efforts  to  procure a policy,                   which is non-cancelable, except upon thirty (30) days, advance                   notice to the Distributor."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Covenant Not To Sue\" that should be reviewed by a lawyer. Details: Is a party restricted from contesting the validity of the counterparty’s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract": {
+                    "ground_truth": [
+                        "During the Term of this Agreement and                   for three  years  thereafter,  the  Distributor  (on behalf of                   itself and each of its affiliates) agrees not to commence,  or                   provide any  information to or otherwise  assist any person or                   entity in  connection  with,  any suit,  action or  proceeding                   contesting the ownership,  validity or  enforceability  of any                   patent,  copyright,  trademark,  trade name or other propriety                   right owned by or licensed to the Company,  whether  currently                   existing or hereinafter invented, developed or acquired unless                   required to by court order."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Third Party Beneficiary\" that should be reviewed by a lawyer. Details: Is there a non-contracting party who is a beneficiary to some or all of the clauses in the contract and therefore can enforce its rights against a contracting party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                }
+            }
+        },
+        {
+            "contract": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT",
+            "categories": {
+                "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract": {
+                    "ground_truth": [
+                        "Promotion and Distribution Agreement"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract": {
+                    "ground_truth": [
+                        "Distributor",
+                        "Google",
+                        "Google Inc",
+                        "Whitesmoke Inc."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective": {
+                    "ground_truth": [
+                        "1 August 2011"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire": {
+                    "ground_truth": [
+                        "\"Term\" means the earlier of: (a) the end of the two year period from the Effective Date to 31 July 2013; or (b) the last day of the calendar month  within which the Maximum Distribution Commitment is reached.",
+                        "This Agreement shall commence on the Effective Date and, unless earlier terminated as set out in this Agreement, shall continue  for the Term."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Notice Period To Terminate Renewal\" that should be reviewed by a lawyer. Details: What is the notice period required to terminate renewal": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract": {
+                    "ground_truth": [
+                        "This Agreement is governed by English law and the parties submit to the exclusive jurisdiction of the English courts in  relation to any dispute (contractual or non-contractual) concerning this Agreement save that either party may apply to any court for an  injunction or other relief to protect its Intellectual Property Rights."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Most Favored Nation\" that should be reviewed by a lawyer. Details: Is there a clause that if a third party gets better terms on the licensing or sale of technology/goods/services described in the contract, the buyer of such technology/goods/services under the contract shall be entitled to those better terms": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Compete\" that should be reviewed by a lawyer. Details: Is there a restriction on the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Exclusivity\" that should be reviewed by a lawyer. Details: Is there an exclusive dealing  commitment with the counterparty? This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on  collaborating or working with other parties), whether during the contract or  after the contract ends (or both).": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"No-Solicit Of Customers\" that should be reviewed by a lawyer. Details: Is a party restricted from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Competitive Restriction Exception\" that should be reviewed by a lawyer. Details: This category includes the exceptions or carveouts to Non-Compete, Exclusivity and No-Solicit of Customers above.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"No-Solicit Of Employees\" that should be reviewed by a lawyer. Details: Is there a restriction on a party’s soliciting or hiring employees and/or contractors from the  counterparty, whether during the contract or after the contract ends (or both)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Disparagement\" that should be reviewed by a lawyer. Details: Is there a requirement on a party not to disparage the counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Rofr/Rofo/Rofn\" that should be reviewed by a lawyer. Details: Is there a clause granting one party a right of first refusal, right of first offer or right of first negotiation to purchase, license, market, or distribute equity interest, technology, assets, products or services": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Change Of Control\" that should be reviewed by a lawyer. Details: Does one party have the right to terminate or is consent or notice required of the counterparty if such party undergoes a change of control, such as a merger, stock sale, transfer of all or substantially all of its assets or business, or assignment by operation of law": {
+                    "ground_truth": [
+                        "[ * ] expected to experience, or [ * ] is experiencing, such  Change of Control shall notify [ * ] in writing of this before or within [ * ] after the Change of Control.",
+                        "[ * ] may terminate this Agreement immediately upon written notice if there is a Change of Control of [ * ]. In this  Clause the term \"Control\" shall mean the possession by any person(s) directly or indirectly of the power to direct or cause the direction  of another person and \"Change of Control\" is to be construed accordingly.",
+                        "For the avoidance of doubt, if following [ * ] there is a transfer of shareholding or interests in Distributor to any existing or new  shareholder(s) which results in any person or persons subsequently gaining Control of Distributor, then Google may exercise its right to  terminate in accordance with this clause 5.4.",
+                        "For the  avoidance of doubt, a Change of Control shall be deemed an assignment hereunder unless [ * ] does not exercise its [ * ]."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party": {
+                    "ground_truth": [
+                        "[ * ] may [ * ]any of its rights or obligations under this Agreement without the prior written consent of [ * ]."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Price Restrictions\" that should be reviewed by a lawyer. Details: Is there a restriction on the  ability of a party to raise or reduce prices of technology, goods, or  services provided": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Minimum Commitment\" that should be reviewed by a lawyer. Details: Is there a minimum order size or minimum amount or units per-time period that one party must buy from the counterparty under the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Volume Restriction\" that should be reviewed by a lawyer. Details: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Joint Ip Ownership\" that should be reviewed by a lawyer. Details: Is there any clause providing for joint or shared ownership of intellectual property between the parties to the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty": {
+                    "ground_truth": [
+                        "Subject to the terms and conditions of this Agreement, Google grants to Distributor a limited, [ * ] license  during the Term to use the Google Trademarks, in accordance with Google's trademark usage guidelines, solely to market and promote the  Products consistent with this Agreement, provided that all use of the Google Trademarks shall be subject to Google's prior review and  advance written consent.",
+                        "Subject to the terms and conditions of this Agreement, Google grants to Distributor a [* ] license during the  Term to: (a) bundle the Distribution Products, in machine-readable binary code format only, solely with Distributor App(s); (b) distribute  Bundles directly (or indirectly, subject to Clause 2.2 (Third Party Distribution)) to End Users in the Territory; (c) when indicated by the  applicable Criteria Checker and requested by the End User in accordance with clause 3.2 (Form of Distribution Offering), install the  Chrome Browser or the Google Toolbar (as applicable) on the End User's system using the Google Installers; and (d) reproduce (or have  reproduced by Third Party Distributors as defined in Clause 2.2 (Third Party Distribution)), the Distribution Products to the extent  necessary to exercise the rights granted in (a), (b) and (c)."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Transferable License\" that should be reviewed by a lawyer. Details: Does the contract limit the ability of a party to transfer the license being granted to a third party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensor\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant by affiliates of the licensor or that includes intellectual property of affiliates of the licensor": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensee\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant to a licensee (incl. sublicensor) and the affiliates of such licensee/sublicensor": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Unlimited/All-You-Can-Eat-License\" that should be reviewed by a lawyer. Details: Is there a clause granting one party an “enterprise,” “all you can eat” or unlimited usage license": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Irrevocable Or Perpetual License\" that should be reviewed by a lawyer. Details: Does the contract contain a  license grant that is irrevocable or perpetual": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Source Code Escrow\" that should be reviewed by a lawyer. Details: Is one party required to deposit its source code into escrow with a third party, which can be released to the counterparty upon the occurrence of certain events (bankruptcy,  insolvency, etc.)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Audit Rights\" that should be reviewed by a lawyer. Details: Does a party have the right to  audit the books, records, or physical locations of the counterparty to ensure compliance with the contract": {
+                    "ground_truth": [
+                        "During the Term, and for a period of [ * ] thereafter, Google may audit Distributor's relevant records to confirm  Distributor's compliance with this Agreement."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Uncapped Liability\" that should be reviewed by a lawyer. Details: Is a party’s liability uncapped upon the breach of its obligation in the contract? This also includes uncap liability for a particular type of breach such as IP infringement or breach of confidentiality obligation.": {
+                    "ground_truth": [
+                        "Subject to Clauses 9.1 and 9.2, each party's total liability under or in connection with this Agreement (whether in contract, tort or  otherwise) arising in any Contract Year is limited to the greater of:\n\n  (a) [ * ] Euros ([ * ] Euros); and\n\n  (b) [ * ]% of the total payment due to the Distributor in the relevant Contract Year pursuant to Clause 4 (Payment Terms).",
+                        "(c) breach of any implied condition as to title or quiet enjoyment; and\n\n  (d) misuse of confidential information.",
+                        "Nothing in this Agreement shall exclude or limit either party's liability for:\n\n  (a) death or personal injury resulting from the negligence of either party or their servants, agents or employees;\n\n  (b) fraud or fraudulent misrepresentation;",
+                        "Subject to Clauses 9.1 and 9.2, neither party shall be liable under this Agreement (whether in contract, tort or otherwise) for any:\n\n  (a) loss of anticipated savings;\n\n  (b) loss of business opportunity (which for the avoidance of doubt shall not include loss of advertising revenue);\n\n  (c) loss of or corruption of data;\n\n  (d) loss or damage resulting from third party claims; or\n\n  (e) indirect or consequential losses;\n     suffered or incurred by the other party (whether or not such losses were within the contemplation of the parties at the date of this  Agreement).",
+                        "Nothing in this Agreement shall exclude or limit either party's liability under Clause 10 (Indemnities), or Distributor's liability under Clause  2 (License Grants and Restrictions), Clause 3.5 (Exclusivity), Clause 3.6 (End User License Agreement) and Clause 3.7 (Accurate  Reproduction) or Clause [ * ]."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.": {
+                    "ground_truth": [
+                        "Subject to Clauses 9.1 and 9.2, each party's total liability under or in connection with this Agreement (whether in contract, tort or  otherwise) arising in any Contract Year is limited to the greater of:\n\n  (a) [ * ] Euros ([ * ] Euros); and\n\n  (b) [ * ]% of the total payment due to the Distributor in the relevant Contract Year pursuant to Clause 4 (Payment Terms).",
+                        "Notwithstanding anything to the contrary, in no event shall the [ * ] paid or payable to Distributor by Google pursuant to Clause 4.1  (Payments) exceed the [ * ].",
+                        "Subject to Clauses 9.1 and 9.2, neither party shall be liable under this Agreement (whether in contract, tort or otherwise) for any:\n\n  (a) loss of anticipated savings;\n\n  (b) loss of business opportunity (which for the avoidance of doubt shall not include loss of advertising revenue);\n\n  (c) loss of or corruption of data;\n\n  (d) loss or damage resulting from third party claims; or\n\n  (e) indirect or consequential losses;\n     suffered or incurred by the other party (whether or not such losses were within the contemplation of the parties at the date of this  Agreement).",
+                        "The foregoing Clauses 10.1 to 10.5 states the parties' entire liability and exclusive remedy with respect to infringement of a third party's  Intellectual Property Rights."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Liquidated Damages\" that should be reviewed by a lawyer. Details: Does the contract contain a clause that would award either party liquidated damages for breach or a fee upon the termination of a contract (termination fee)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract": {
+                    "ground_truth": [
+                        "Google warrants that the Distribution Products will for a period of [ * ] from the date of their supply to Distributor be free from any defect  which has a materially adverse effect on their use or operation."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Insurance\" that should be reviewed by a lawyer. Details: Is there a requirement for insurance that must be maintained by one party for the benefit of the counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Covenant Not To Sue\" that should be reviewed by a lawyer. Details: Is a party restricted from contesting the validity of the counterparty’s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Third Party Beneficiary\" that should be reviewed by a lawyer. Details: Is there a non-contracting party who is a beneficiary to some or all of the clauses in the contract and therefore can enforce its rights against a contracting party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                }
+            }
+        },
+        {
+            "contract": "LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement",
+            "categories": {
+                "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract": {
+                    "ground_truth": [
+                        "SUPPLY CONTRACT"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract": {
+                    "ground_truth": [
+                        "The seller:",
+                        "The buyer/End-User: Shenzhen LOHAS Supply Chain Management Co., Ltd."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire": {
+                    "ground_truth": [
+                        "The Contract is valid for 5 years, beginning from and ended on ."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Notice Period To Terminate Renewal\" that should be reviewed by a lawyer. Details: What is the notice period required to terminate renewal": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract": {
+                    "ground_truth": [
+                        "It will be governed by the law of the People's Republic of China ,otherwise it is governed by United Nations Convention on Contract for the International Sale of Goods."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Most Favored Nation\" that should be reviewed by a lawyer. Details: Is there a clause that if a third party gets better terms on the licensing or sale of technology/goods/services described in the contract, the buyer of such technology/goods/services under the contract shall be entitled to those better terms": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Compete\" that should be reviewed by a lawyer. Details: Is there a restriction on the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Exclusivity\" that should be reviewed by a lawyer. Details: Is there an exclusive dealing  commitment with the counterparty? This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on  collaborating or working with other parties), whether during the contract or  after the contract ends (or both).": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"No-Solicit Of Customers\" that should be reviewed by a lawyer. Details: Is a party restricted from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Competitive Restriction Exception\" that should be reviewed by a lawyer. Details: This category includes the exceptions or carveouts to Non-Compete, Exclusivity and No-Solicit of Customers above.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"No-Solicit Of Employees\" that should be reviewed by a lawyer. Details: Is there a restriction on a party’s soliciting or hiring employees and/or contractors from the  counterparty, whether during the contract or after the contract ends (or both)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Disparagement\" that should be reviewed by a lawyer. Details: Is there a requirement on a party not to disparage the counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Rofr/Rofo/Rofn\" that should be reviewed by a lawyer. Details: Is there a clause granting one party a right of first refusal, right of first offer or right of first negotiation to purchase, license, market, or distribute equity interest, technology, assets, products or services": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Change Of Control\" that should be reviewed by a lawyer. Details: Does one party have the right to terminate or is consent or notice required of the counterparty if such party undergoes a change of control, such as a merger, stock sale, transfer of all or substantially all of its assets or business, or assignment by operation of law": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Price Restrictions\" that should be reviewed by a lawyer. Details: Is there a restriction on the  ability of a party to raise or reduce prices of technology, goods, or  services provided": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Minimum Commitment\" that should be reviewed by a lawyer. Details: Is there a minimum order size or minimum amount or units per-time period that one party must buy from the counterparty under the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Volume Restriction\" that should be reviewed by a lawyer. Details: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Joint Ip Ownership\" that should be reviewed by a lawyer. Details: Is there any clause providing for joint or shared ownership of intellectual property between the parties to the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Transferable License\" that should be reviewed by a lawyer. Details: Does the contract limit the ability of a party to transfer the license being granted to a third party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensor\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant by affiliates of the licensor or that includes intellectual property of affiliates of the licensor": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensee\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant to a licensee (incl. sublicensor) and the affiliates of such licensee/sublicensor": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Unlimited/All-You-Can-Eat-License\" that should be reviewed by a lawyer. Details: Is there a clause granting one party an “enterprise,” “all you can eat” or unlimited usage license": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Irrevocable Or Perpetual License\" that should be reviewed by a lawyer. Details: Does the contract contain a  license grant that is irrevocable or perpetual": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Source Code Escrow\" that should be reviewed by a lawyer. Details: Is one party required to deposit its source code into escrow with a third party, which can be released to the counterparty upon the occurrence of certain events (bankruptcy,  insolvency, etc.)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Audit Rights\" that should be reviewed by a lawyer. Details: Does a party have the right to  audit the books, records, or physical locations of the counterparty to ensure compliance with the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Uncapped Liability\" that should be reviewed by a lawyer. Details: Is a party’s liability uncapped upon the breach of its obligation in the contract? This also includes uncap liability for a particular type of breach such as IP infringement or breach of confidentiality obligation.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Liquidated Damages\" that should be reviewed by a lawyer. Details: Does the contract contain a clause that would award either party liquidated damages for breach or a fee upon the termination of a contract (termination fee)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract": {
+                    "ground_truth": [
+                        "Within 7 days after the arrival of the goods at destination, should the quality, specification, or quantity be found not in conformity with the stipulations of the Contract except those claims for which the insurance company or the owners of the vessel are liable, the Buyers, on the strength of the Inspection Certificate issued by the China Commodity Inspection Bureau, have the right to claim for replacement with new goods, or for compensation, and all the expenses (such as inspection charges, freight for returning the goods and for sending the replacement, insurance premium, storage and loading and unloading charges etc.) shall be borne by the Sellers."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Insurance\" that should be reviewed by a lawyer. Details: Is there a requirement for insurance that must be maintained by one party for the benefit of the counterparty": {
+                    "ground_truth": [
+                        "To be covered by the Seller for 110% invoice value against All Risks and War Risk."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Covenant Not To Sue\" that should be reviewed by a lawyer. Details: Is a party restricted from contesting the validity of the counterparty’s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Third Party Beneficiary\" that should be reviewed by a lawyer. Details: Is there a non-contracting party who is a beneficiary to some or all of the clauses in the contract and therefore can enforce its rights against a contracting party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                }
+            }
+        },
+        {
+            "contract": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT",
+            "categories": {
+                "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract": {
+                    "ground_truth": [
+                        "WEB SITE HOSTING AGREEMENT"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract": {
+                    "ground_truth": [
+                        "Centrack International",
+                        "the Customer",
+                        "i-on",
+                        "CENTRACK INTERNATIONAL, INC.",
+                        "I-ON INTERACTIVE, INC.",
+                        "i-on interactive"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract": {
+                    "ground_truth": [
+                        "6th day of April, 1999"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective": {
+                    "ground_truth": [
+                        "The term of this Agreement for the Hosted Site shall commence upon April 1, 1999 and shall continue for a period of six (6) months, unless earlier terminated in accordance with provisions hereof."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire": {
+                    "ground_truth": [
+                        "The term of this Agreement for the Hosted Site shall commence upon April 1, 1999 and shall continue for a period of six (6) months, unless earlier terminated in accordance with provisions hereof."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.": {
+                    "ground_truth": [
+                        "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the",
+                        "Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Notice Period To Terminate Renewal\" that should be reviewed by a lawyer. Details: What is the notice period required to terminate renewal": {
+                    "ground_truth": [
+                        "This Agreement shall automatically be renewed for one (1) or more one (1) month periods unless either the Customer or i-on gives notice to the other party of its intention not to renew the",
+                        "Agreement, which notice must be given not less than fifteen (15) days before the end of the respective initial or renewal term."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract": {
+                    "ground_truth": [
+                        "This Agreement was entered into in the State of Florida, and its validity, construction, interpretation, and legal effect shall be governed by the laws and judicial decisions of the State of Florida applicable to contracts entered into and performed entirely within the State of Florida."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Most Favored Nation\" that should be reviewed by a lawyer. Details: Is there a clause that if a third party gets better terms on the licensing or sale of technology/goods/services described in the contract, the buyer of such technology/goods/services under the contract shall be entitled to those better terms": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Compete\" that should be reviewed by a lawyer. Details: Is there a restriction on the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Exclusivity\" that should be reviewed by a lawyer. Details: Is there an exclusive dealing  commitment with the counterparty? This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on  collaborating or working with other parties), whether during the contract or  after the contract ends (or both).": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"No-Solicit Of Customers\" that should be reviewed by a lawyer. Details: Is a party restricted from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Competitive Restriction Exception\" that should be reviewed by a lawyer. Details: This category includes the exceptions or carveouts to Non-Compete, Exclusivity and No-Solicit of Customers above.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"No-Solicit Of Employees\" that should be reviewed by a lawyer. Details: Is there a restriction on a party’s soliciting or hiring employees and/or contractors from the  counterparty, whether during the contract or after the contract ends (or both)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Disparagement\" that should be reviewed by a lawyer. Details: Is there a requirement on a party not to disparage the counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)": {
+                    "ground_truth": [
+                        "Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Rofr/Rofo/Rofn\" that should be reviewed by a lawyer. Details: Is there a clause granting one party a right of first refusal, right of first offer or right of first negotiation to purchase, license, market, or distribute equity interest, technology, assets, products or services": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Change Of Control\" that should be reviewed by a lawyer. Details: Does one party have the right to terminate or is consent or notice required of the counterparty if such party undergoes a change of control, such as a merger, stock sale, transfer of all or substantially all of its assets or business, or assignment by operation of law": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Price Restrictions\" that should be reviewed by a lawyer. Details: Is there a restriction on the  ability of a party to raise or reduce prices of technology, goods, or  services provided": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Minimum Commitment\" that should be reviewed by a lawyer. Details: Is there a minimum order size or minimum amount or units per-time period that one party must buy from the counterparty under the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Volume Restriction\" that should be reviewed by a lawyer. Details: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Joint Ip Ownership\" that should be reviewed by a lawyer. Details: Is there any clause providing for joint or shared ownership of intellectual property between the parties to the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Transferable License\" that should be reviewed by a lawyer. Details: Does the contract limit the ability of a party to transfer the license being granted to a third party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensor\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant by affiliates of the licensor or that includes intellectual property of affiliates of the licensor": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensee\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant to a licensee (incl. sublicensor) and the affiliates of such licensee/sublicensor": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Unlimited/All-You-Can-Eat-License\" that should be reviewed by a lawyer. Details: Is there a clause granting one party an “enterprise,” “all you can eat” or unlimited usage license": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Irrevocable Or Perpetual License\" that should be reviewed by a lawyer. Details: Does the contract contain a  license grant that is irrevocable or perpetual": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Source Code Escrow\" that should be reviewed by a lawyer. Details: Is one party required to deposit its source code into escrow with a third party, which can be released to the counterparty upon the occurrence of certain events (bankruptcy,  insolvency, etc.)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Audit Rights\" that should be reviewed by a lawyer. Details: Does a party have the right to  audit the books, records, or physical locations of the counterparty to ensure compliance with the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Uncapped Liability\" that should be reviewed by a lawyer. Details: Is a party’s liability uncapped upon the breach of its obligation in the contract? This also includes uncap liability for a particular type of breach such as IP infringement or breach of confidentiality obligation.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.": {
+                    "ground_truth": [
+                        "i-on will not be liable under any circumstances for any lost profits or other consequential damages, even if i-on has been advised as to the possibility of such damages. i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Liquidated Damages\" that should be reviewed by a lawyer. Details: Does the contract contain a clause that would award either party liquidated damages for breach or a fee upon the termination of a contract (termination fee)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Insurance\" that should be reviewed by a lawyer. Details: Is there a requirement for insurance that must be maintained by one party for the benefit of the counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Covenant Not To Sue\" that should be reviewed by a lawyer. Details: Is a party restricted from contesting the validity of the counterparty’s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Third Party Beneficiary\" that should be reviewed by a lawyer. Details: Is there a non-contracting party who is a beneficiary to some or all of the clauses in the contract and therefore can enforce its rights against a contracting party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                }
+            }
+        },
+        {
+            "contract": "NELNETINC_04_08_2020-EX-1-JOINT FILING AGREEMENT",
+            "categories": {
+                "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract": {
+                    "ground_truth": [
+                        "JOINT FILING AGREEMENT"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract": {
+                    "ground_truth": [
+                        "Co-Trustee",
+                        "Shelby J. Butterfield"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract": {
+                    "ground_truth": [
+                        "March 27, 2020."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Notice Period To Terminate Renewal\" that should be reviewed by a lawyer. Details: What is the notice period required to terminate renewal": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Most Favored Nation\" that should be reviewed by a lawyer. Details: Is there a clause that if a third party gets better terms on the licensing or sale of technology/goods/services described in the contract, the buyer of such technology/goods/services under the contract shall be entitled to those better terms": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Compete\" that should be reviewed by a lawyer. Details: Is there a restriction on the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Exclusivity\" that should be reviewed by a lawyer. Details: Is there an exclusive dealing  commitment with the counterparty? This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on  collaborating or working with other parties), whether during the contract or  after the contract ends (or both).": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"No-Solicit Of Customers\" that should be reviewed by a lawyer. Details: Is a party restricted from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Competitive Restriction Exception\" that should be reviewed by a lawyer. Details: This category includes the exceptions or carveouts to Non-Compete, Exclusivity and No-Solicit of Customers above.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"No-Solicit Of Employees\" that should be reviewed by a lawyer. Details: Is there a restriction on a party’s soliciting or hiring employees and/or contractors from the  counterparty, whether during the contract or after the contract ends (or both)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Disparagement\" that should be reviewed by a lawyer. Details: Is there a requirement on a party not to disparage the counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Rofr/Rofo/Rofn\" that should be reviewed by a lawyer. Details: Is there a clause granting one party a right of first refusal, right of first offer or right of first negotiation to purchase, license, market, or distribute equity interest, technology, assets, products or services": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Change Of Control\" that should be reviewed by a lawyer. Details: Does one party have the right to terminate or is consent or notice required of the counterparty if such party undergoes a change of control, such as a merger, stock sale, transfer of all or substantially all of its assets or business, or assignment by operation of law": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Price Restrictions\" that should be reviewed by a lawyer. Details: Is there a restriction on the  ability of a party to raise or reduce prices of technology, goods, or  services provided": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Minimum Commitment\" that should be reviewed by a lawyer. Details: Is there a minimum order size or minimum amount or units per-time period that one party must buy from the counterparty under the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Volume Restriction\" that should be reviewed by a lawyer. Details: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Joint Ip Ownership\" that should be reviewed by a lawyer. Details: Is there any clause providing for joint or shared ownership of intellectual property between the parties to the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Transferable License\" that should be reviewed by a lawyer. Details: Does the contract limit the ability of a party to transfer the license being granted to a third party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensor\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant by affiliates of the licensor or that includes intellectual property of affiliates of the licensor": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensee\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant to a licensee (incl. sublicensor) and the affiliates of such licensee/sublicensor": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Unlimited/All-You-Can-Eat-License\" that should be reviewed by a lawyer. Details: Is there a clause granting one party an “enterprise,” “all you can eat” or unlimited usage license": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Irrevocable Or Perpetual License\" that should be reviewed by a lawyer. Details: Does the contract contain a  license grant that is irrevocable or perpetual": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Source Code Escrow\" that should be reviewed by a lawyer. Details: Is one party required to deposit its source code into escrow with a third party, which can be released to the counterparty upon the occurrence of certain events (bankruptcy,  insolvency, etc.)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Audit Rights\" that should be reviewed by a lawyer. Details: Does a party have the right to  audit the books, records, or physical locations of the counterparty to ensure compliance with the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Uncapped Liability\" that should be reviewed by a lawyer. Details: Is a party’s liability uncapped upon the breach of its obligation in the contract? This also includes uncap liability for a particular type of breach such as IP infringement or breach of confidentiality obligation.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Liquidated Damages\" that should be reviewed by a lawyer. Details: Does the contract contain a clause that would award either party liquidated damages for breach or a fee upon the termination of a contract (termination fee)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Insurance\" that should be reviewed by a lawyer. Details: Is there a requirement for insurance that must be maintained by one party for the benefit of the counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Covenant Not To Sue\" that should be reviewed by a lawyer. Details: Is a party restricted from contesting the validity of the counterparty’s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Third Party Beneficiary\" that should be reviewed by a lawyer. Details: Is there a non-contracting party who is a beneficiary to some or all of the clauses in the contract and therefore can enforce its rights against a contracting party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                }
+            }
+        },
+        {
+            "contract": "ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT",
+            "categories": {
+                "Highlight the parts (if any) of this contract related to \"Document Name\" that should be reviewed by a lawyer. Details: The name of the contract": {
+                    "ground_truth": [
+                        "ENDORSEMENT AGREEMENT"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Parties\" that should be reviewed by a lawyer. Details: The two or more parties who signed the contract": {
+                    "ground_truth": [
+                        "ADAMS GOLF",
+                        "CONSULTANT",
+                        "TOM WATSON",
+                        "ADAMS GOLF, LTD."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Agreement Date\" that should be reviewed by a lawyer. Details: The date of the contract": {
+                    "ground_truth": [
+                        "January 13, 2005"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Effective Date\" that should be reviewed by a lawyer. Details: The date when the contract is effective": {
+                    "ground_truth": [
+                        "The Term of this Agreement shall be for a period of [* ****] years and [*****] months commencing the 1st day of September 2004 and terminating the [*****] day of [*****]."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Expiration Date\" that should be reviewed by a lawyer. Details: On what date will the contract's initial term expire": {
+                    "ground_truth": [
+                        "The Term of this Agreement shall be for a period of [* ****] years and [*****] months commencing the 1st day of September 2004 and terminating the [*****] day of [*****]."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Renewal Term\" that should be reviewed by a lawyer. Details: What is the renewal term after the initial term expires? This includes automatic extensions and unilateral extensions with prior notice.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Notice Period To Terminate Renewal\" that should be reviewed by a lawyer. Details: What is the notice period required to terminate renewal": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Governing Law\" that should be reviewed by a lawyer. Details: Which state/country's law governs the interpretation of the contract": {
+                    "ground_truth": [
+                        "This Agreement shall be governed and construed according to the laws of the State of Kansas."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Most Favored Nation\" that should be reviewed by a lawyer. Details: Is there a clause that if a third party gets better terms on the licensing or sale of technology/goods/services described in the contract, the buyer of such technology/goods/services under the contract shall be entitled to those better terms": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Compete\" that should be reviewed by a lawyer. Details: Is there a restriction on the ability of a party to compete with the counterparty or operate in a certain geography or business or technology sector": {
+                    "ground_truth": [
+                        "When endorsing a non-competitive product, under no circumstances shall CONSULTANT wear, play, use, hold or in any way be associated with an ADAMS GOLF competitor's Product."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Exclusivity\" that should be reviewed by a lawyer. Details: Is there an exclusive dealing  commitment with the counterparty? This includes a commitment to procure all “requirements” from one party of certain technology, goods, or services or a prohibition on licensing or selling technology, goods or services to third parties, or a prohibition on  collaborating or working with other parties), whether during the contract or  after the contract ends (or both).": {
+                    "ground_truth": [
+                        "During the term of this Agreement, CONSULTANT shall exclusively play/use the MANDATORY PRODUCT.",
+                        "CONSULTANT hereby gives and grants to ADAMS GOLF the exclusive right and license to use CONSULTANT'S ENDORSEMENT in connection with the manufacture, sale, distribution, advertising and promotion of PRODUCT in the CONTRACT TERRITORY.",
+                        "During the term of this Agreement, unless otherwise authorized at the sole discretion of ADAMS GOLF in writing, CONSULTANT shall not:   A.give the right to use or permit the use of CONSULTANT'S name, facsimile signature, nickname, voice or likeness to any other manufacturer or seller of PRODUCT;\n\nB.sponsor or endorse PRODUCT made or sold by any other manufacturer or seller; or\n\nC.serve as a CONSULTANT or advisor of any other manufacturer or seller of PRODUCT."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"No-Solicit Of Customers\" that should be reviewed by a lawyer. Details: Is a party restricted from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Competitive Restriction Exception\" that should be reviewed by a lawyer. Details: This category includes the exceptions or carveouts to Non-Compete, Exclusivity and No-Solicit of Customers above.": {
+                    "ground_truth": [
+                        "Notwithstanding paragraphs 4A, 4B and 4C above, CONSULTANT shall be entitled to endorse and play the [*****].",
+                        "Notwithstanding  paragraphs 4A, 4B and 4C above, CONSULTANT  shall not be required to wear ADAMS  GOLF [*****] in [*****] ads.",
+                        "The parties expressly  agree that CONSULTANT may  permit [*****] the use of CONSULTANT'S  name and/or likeness in [*****] print and/or television advertisement provided that this is executed in a manner consistent with [*****] past  [*****] advertising practice using similarly situated professional golfers  with competing golf club endorsement agreements that include [*****].",
+                        "(It is expressly understood by the parties that CONSULTANT may play [* ****] clubs in the bag other than ADAMS GOLF clubs including, but not limited to, a putter by a manufacturer other than ADAMS GOLF but may not endorse those clubs and/or putter.)"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"No-Solicit Of Employees\" that should be reviewed by a lawyer. Details: Is there a restriction on a party’s soliciting or hiring employees and/or contractors from the  counterparty, whether during the contract or after the contract ends (or both)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Disparagement\" that should be reviewed by a lawyer. Details: Is there a requirement on a party not to disparage the counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Termination For Convenience\" that should be reviewed by a lawyer. Details: Can a party terminate this  contract without cause (solely by giving a notice and allowing a waiting  period to expire)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Rofr/Rofo/Rofn\" that should be reviewed by a lawyer. Details: Is there a clause granting one party a right of first refusal, right of first offer or right of first negotiation to purchase, license, market, or distribute equity interest, technology, assets, products or services": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Change Of Control\" that should be reviewed by a lawyer. Details: Does one party have the right to terminate or is consent or notice required of the counterparty if such party undergoes a change of control, such as a merger, stock sale, transfer of all or substantially all of its assets or business, or assignment by operation of law": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Anti-Assignment\" that should be reviewed by a lawyer. Details: Is consent or notice required of a party if the contract is assigned to a third party": {
+                    "ground_truth": [
+                        "Neither ADAMS GOLF nor CONSULTANT shall have the right to grant sublicenses hereunder or to assign, alienate or otherwise transfer any of its rights or obligations hereunder."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Revenue/Profit Sharing\" that should be reviewed by a lawyer. Details: Is one party required to share revenue or profit with the counterparty for any technology, goods, or services": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Price Restrictions\" that should be reviewed by a lawyer. Details: Is there a restriction on the  ability of a party to raise or reduce prices of technology, goods, or  services provided": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Minimum Commitment\" that should be reviewed by a lawyer. Details: Is there a minimum order size or minimum amount or units per-time period that one party must buy from the counterparty under the contract": {
+                    "ground_truth": [
+                        "In each and every calendar year of this Agreement, CONSULTANT shall achieve a satisfactory record of play in a minimum of [* ****] professional golf association events on the SPGA and/or PGA tour (which shall include both the PGA and SPGA Tour Skins Games).",
+                        "If for any reason, CONSULTANT should achieve a satisfactory record of play in less than [*****] SPGA and/or PGA tour events in a calendar year, he shall repay ADAMS GOLF an amount per event for each event under [*****] achieved in the given calendar year as follows:\n\nThe agreed upon repayment amount per event per calendar year:\n\n1.  Year 1. $[*****] 2.  Year 2 $[*****] 3.  Year 3 $[*****] 4.  Year 4 $[*****] 5.  Year 5 $[*****]",
+                        "\"MANDATORY PRODUCTS\" shall mean the following ADAMS GOLF PRODUCTS  that CONSULTANT must exclusively play/use in all Champions/Senior Professional Golf Association (SPGA) and Professional Golf Association (PGA) events at all times:\n\n[***** ]  Confidential Material redacted and filed separately with the Commission.   2\n\n\n\n\n\n  1.[*****] 2.Sufficient [*****] to maintain total minimum of [*****] ADAMS GOLF  [*****] (includes [*****])[*****] at all times"
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Volume Restriction\" that should be reviewed by a lawyer. Details: Is there a fee increase or consent requirement, etc. if one party’s use of the product/services exceeds certain threshold": {
+                    "ground_truth": [
+                        "During  the term of this Agreement, CONSULTANT  shall make himself available on not more than [*****]  days for television and radio commercials, photo shoots, modeling and  promotional appearances compatible with CONSULTANT'S  own practice, play and personal time requirements."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Ip Ownership Assignment\" that should be reviewed by a lawyer. Details: Does intellectual property created  by one party become the property of the counterparty, either per the terms of the contract or upon the occurrence of certain events": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Joint Ip Ownership\" that should be reviewed by a lawyer. Details: Is there any clause providing for joint or shared ownership of intellectual property between the parties to the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"License Grant\" that should be reviewed by a lawyer. Details: Does the contract contain a license granted by one party to its counterparty": {
+                    "ground_truth": [
+                        "CONSULTANT hereby gives and grants to ADAMS GOLF the exclusive right and license to use CONSULTANT'S ENDORSEMENT in connection with the manufacture, sale, distribution, advertising and promotion of PRODUCT in the CONTRACT TERRITORY."
+                    ],
+                    "prediction": [],
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched": false
+                },
+                "Highlight the parts (if any) of this contract related to \"Non-Transferable License\" that should be reviewed by a lawyer. Details: Does the contract limit the ability of a party to transfer the license being granted to a third party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensor\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant by affiliates of the licensor or that includes intellectual property of affiliates of the licensor": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Affiliate License-Licensee\" that should be reviewed by a lawyer. Details: Does the contract contain a license grant to a licensee (incl. sublicensor) and the affiliates of such licensee/sublicensor": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Unlimited/All-You-Can-Eat-License\" that should be reviewed by a lawyer. Details: Is there a clause granting one party an “enterprise,” “all you can eat” or unlimited usage license": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Irrevocable Or Perpetual License\" that should be reviewed by a lawyer. Details: Does the contract contain a  license grant that is irrevocable or perpetual": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Source Code Escrow\" that should be reviewed by a lawyer. Details: Is one party required to deposit its source code into escrow with a third party, which can be released to the counterparty upon the occurrence of certain events (bankruptcy,  insolvency, etc.)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Post-Termination Services\" that should be reviewed by a lawyer. Details: Is a party subject to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Audit Rights\" that should be reviewed by a lawyer. Details: Does a party have the right to  audit the books, records, or physical locations of the counterparty to ensure compliance with the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Uncapped Liability\" that should be reviewed by a lawyer. Details: Is a party’s liability uncapped upon the breach of its obligation in the contract? This also includes uncap liability for a particular type of breach such as IP infringement or breach of confidentiality obligation.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Cap On Liability\" that should be reviewed by a lawyer. Details: Does the contract include a cap on liability upon the breach of a party’s obligation? This includes time limitation for the counterparty to bring claims or maximum amount for recovery.": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Liquidated Damages\" that should be reviewed by a lawyer. Details: Does the contract contain a clause that would award either party liquidated damages for breach or a fee upon the termination of a contract (termination fee)": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Warranty Duration\" that should be reviewed by a lawyer. Details: What is the duration of any  warranty against defects or errors in technology, products, or services  provided under the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Insurance\" that should be reviewed by a lawyer. Details: Is there a requirement for insurance that must be maintained by one party for the benefit of the counterparty": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Covenant Not To Sue\" that should be reviewed by a lawyer. Details: Is a party restricted from contesting the validity of the counterparty’s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                },
+                "Highlight the parts (if any) of this contract related to \"Third Party Beneficiary\" that should be reviewed by a lawyer. Details: Is there a non-contracting party who is a beneficiary to some or all of the clauses in the contract and therefore can enforce its rights against a contracting party": {
+                    "ground_truth": [],
+                    "prediction": [],
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1": 1.0,
+                    "matched": true
+                }
+            }
+        }
+    ]
+}
